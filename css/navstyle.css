@@ -1,0 +1,225 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)), url(../image/login-img.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.header{
+  padding: 10px;
+  background-color: #ccd;
+  border-bottom: 4px solid #000;
+}
+.countDownContainer{
+  position: absolute;
+  left: 70%;
+  transform: translate(-10%,-5%);
+  text-align: center;
+}
+.loader{
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150vh;
+  position: absolute;
+  background-color: #171731;
+}
+.loader img{
+  top: 50%;
+  left: 50%;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+.info{
+  font-size: 30px;
+}
+#open{
+  background-color: #000;
+  color: #fff;
+  padding-right: 5px;
+}
+.up{
+  color: #000;
+  top: -31px;
+  left: 40px;
+  position: relative;
+  font-family: Palatino Linotype;
+}
+.upp{
+  top: -30px;
+  position: relative;
+  text-align: center;
+  margin-bottom: -20px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+#sold img{
+  width: 79px;
+  height: 140px;
+}
+.footer_container{
+  color: #fff;
+  background-color: #000;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+#inner{
+  text-align: center;
+}
+#inner2 {
+  width: 30px;
+  height: 30px;
+}
+#inner_p {
+  text-align: justify;
+}
+#inner h3{
+  margin-top: 10px;
+  text-align: center;
+}
+#inner p{
+  color: #fff;
+  height: 2px solid #fff;
+}
+/* hovering the image */
+#sold a:hover{
+      overflow: visible;
+      z-index: 1000;
+      border :none;
+}
+#sold a:hover img{
+      border: 1px solid #999;
+      background: #fff;
+      padding: 2px;
+      height: 150px;
+      width: 150px;
+      position: absolute;
+}
+/*// hovering the image*/
+.breadcrumb a .active{
+  color: red !important;
+}
+.thu{
+  background-color: #2D2D46 ;
+  opacity: 0.5;
+}
+.thu h2{
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.thu p{
+  color: #fff;
+  padding: 10px;
+  text-align: justify;
+}
+#tab th{
+  text-align: center;
+}
+.footer{
+  clear: both;
+  background-color: #000 !important;
+  color: #fff !important;
+}
+.last_footer{
+  width: 100%;
+  clear: both;
+  background-color: #CCCCDD !important;
+ 
+}
+.last_footer{
+  border-radius: 10px;
+}
+.last_footer p{
+  text-align: center;
+  color: #000;
+  font-weight: bolder;
+}
+.right a{
+  float: right;
+  margin-top: -20px;
+}
+.right img{
+ 
+}
+#away{
+  margin-top: 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+@media screen and (max-width: 550px) {
+  .up{
+    /*text-align: center;*/
+    visibility: hidden;
+  }
+  .upp{
+    position: relative;
+    top: -9px;
+  }
+  .countDownContainer{
+  color: #fff;
+  position: absolute;
+  left: 30%;
+  transform: translate(-10%,-5%);
+  text-align: center;
+  }
+  .sell{
+    text-align: left;
+  }
+}
+@media screen and (max-width: 350px) {
+  .up{
+    visibility: hidden;
+  }
+  .countDownContainer{
+  color: #fff;
+  position: absolute;
+  left: 30%;
+  transform: translate(-10%,-5%);
+  text-align: center;
+  }
+}
